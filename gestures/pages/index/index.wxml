@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <text class="finger_guessing">猜拳游戏</text>
+  <view class="userinfo">
+    <image class="userinfo-avatar" src="{{imgPath}}" background-size="cover"/>
+    <button bindtap="guess">{{title}}</button>
+  </view>
+</view>
